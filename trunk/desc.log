@@ -1,0 +1,12 @@
+﻿1、工程说明
+此工程为商酷酷等位项目，项目主要用于餐厅排队时的发号与叫号。
+
+2、依赖工程
+SlidingMenu，SVN地址：http://10.90.0.21/project/wxapk/Library/SlidingLibrary/branches/StandedSlidingMenuLibrary
+CaptureLib，SVN地址：http://192.168.70.21/project/wxapk/Library/CaptureLib/trunk
+
+3、签名相关
+签名文件：oa02.key
+签名密码：allinpay
+签名别名：allinpay
+别名密码：allinpay

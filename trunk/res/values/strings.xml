@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">酷等位</string>
+    <string name="input_name_hint">请输入用户名</string>
+    <string name="input_psw_hint">请输入密码</string>
+    <string name="login_btn">登录</string>
+
+    <string name="network_not_available">网络不可用</string>
+    <string name="network_no_response">网络无应答</string>
+    <string name="data_parse_error">数据解析错误</string>
+    
+    <string name="reservations2">预定</string>
+    <string name="orders2">堂食</string>
+    <string name="takeaway2">外卖</string>
+    <string name="group">团购</string>
+    <string name="unknown_status">未知状态</string>
+    <string name="un_arrive">未到达</string>
+    <string name="already_arrive">已到达</string>
+    <string name="un_paid">未结账</string>
+    <string name="all_pay">全额支付</string>
+    <string name="bargain_pay">定金支付</string>
+    <string name="already_paid">已结账</string>
+    <string name="delivered_status">派送状态</string>
+    <string name="undelivered">未送达</string>
+    <string name="delivered">已送达</string>
+    <string name="input_username_password">请输入用户名和密码</string>
+    
+    <string name="hint_title">温馨提示:</string>
+    <string name="hint_content">通过“酷餐饮”排队的顾客可出示手机凭证入桌；\n前面还有不足5位排队时，请勿离开等候区；\n过号请重新取号。</string>
+    <string name="scan_barcode">酷等位\n二维码</string>
+    <string name="scan">扫描二维码</string>
+    <string name="scan_result">扫描结果：</string>
+    <string name="scan_number">请扫描排队二维码</string>
+    
+    <string name="wait_desk_number">等待桌数：</string>
+    <string name="next_number">当前叫号：</string>
+    <string name="desk_name"><xliff:g id="prefix">%1$s</xliff:g>(<xliff:g id="prefix">%2$s</xliff:g>-<xliff:g id="prefix">%3$s</xliff:g>人)</string>
+    <string name="send_number">领号</string>
+    <string name="use_number">叫号</string>
+    <string name="eat_immediately">直接入座</string>
+    
+    <string name="input_phone_hint">请输入手机号</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="hint">提示</string>
+    <string name="loading_message">正在加载，请稍候&#8230;</string>
+    
+    <string name="operate_failure">操作失败，请稍后重试！</string>
+    <string name="take_number_success">恭喜领号成功，就餐号为：<xliff:g id="prefix">%1$s</xliff:g></string>
+    
+    <string name="manage">管理</string>
+    
+    <string name="stop_queue">打烊：排队清零</string>
+    <string name="pause_or_resume_queue">暂停/恢复排队</string>
+    <string name="pause_send_number">暂停领号</string>
+    <string name="start_queue">开始排队</string>
+    <string name="sure_resume_queue">确定开始排队？</string>
+    <string name="sure_pause_queue">确定暂停排队？</string>
+    <string name="use_number_success">叫号成功！</string>
+    
+    <string name="ads_str">扫一扫关注，\n在哪儿都能排队！</string>
+    
+</resources>

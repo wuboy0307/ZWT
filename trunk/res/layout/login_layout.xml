@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:gravity="center_horizontal"
+    >
+
+    <EditText
+        android:id="@+id/logineditname"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input"
+        android:drawableLeft="@drawable/login_user2"
+        android:drawablePadding="5dp"
+        android:hint="@string/input_name_hint"
+        android:layout_marginTop="200dp"
+        android:paddingLeft="5dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:inputType="text"
+        android:textColorHint="@android:color/black" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/logineditpwd"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/logineditname"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/logineditname"
+        android:background="@drawable/input"
+        android:drawableLeft="@drawable/login_password2"
+        android:drawablePadding="5dp"
+        android:hint="@string/input_psw_hint"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:layout_below="@id/logineditname"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/login_button_xml"
+        android:layout_below="@id/logineditpwd"
+        android:layout_alignLeft="@id/logineditname"
+        android:layout_alignRight="@id/logineditpwd"
+        android:text="@string/login_btn"
+        android:textColor="@android:color/white"
+        android:textSize="20px" />
+
+</RelativeLayout>

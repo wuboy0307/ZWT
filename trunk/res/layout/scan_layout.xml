@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scanParentLayout"
+    android:background="@android:color/white"
+    >
+
+    <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dialogue_white_down" /> -->
+    
+    <com.google.zxing.client.android.ScannerRelativeLayout
+        android:id="@+id/scanner"
+        android:layout_width="465dp"
+        android:layout_height="465dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/scanner"
+        android:layout_alignTop="@id/scanner"
+        android:layout_margin="13dp"
+        android:background="@drawable/scanqr1"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/scanner"
+        android:layout_alignTop="@id/scanner"
+        android:layout_margin="13dp"
+        android:background="@drawable/scanqr2"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/scanner"
+        android:layout_alignBottom="@id/scanner"
+        android:layout_margin="13dp"
+        android:background="@drawable/scanqr3"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/scanner"
+        android:layout_alignBottom="@id/scanner"
+        android:layout_margin="13dp"
+        android:background="@drawable/scanqr4"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/scanqrAnimImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/scanner"
+        android:layout_alignRight="@id/scanner"
+        android:layout_alignTop="@id/scanner"
+        android:background="@drawable/scanqr_anim"
+        android:contentDescription="@string/app_name" />
+    
+    <TextView
+        android:id="@+id/scanResultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:text="@string/scan_number"
+        android:textSize="25px"
+        android:layout_below="@id/scanner"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round_rect_bg"
+    android:minHeight="140dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rightLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingRight="10dp"
+        android:layout_alignParentRight="true"
+        >
+        
+        <Button
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:background="@drawable/select_selector"
+            />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/leftLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingLeft="10dp"
+        android:layout_toLeftOf="@id/rightLayout"
+        >
+        
+        <TextView
+            android:id="@+id/deskNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/big_black_text_style"
+            android:textStyle="bold"
+            android:text="@string/desk_name"
+            />
+        
+        <TextView
+            android:id="@+id/waitDeskNumberText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/big_black_text_style"
+            android:text="@string/wait_desk_number"
+            android:layout_below="@id/deskNameText"
+            android:layout_marginTop="18dp"
+            />
+        
+        <TextView
+            android:id="@+id/waitDeskNumberText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/big_black_text_style"
+            android:text="@string/wait_desk_number"
+            android:layout_toRightOf="@id/waitDeskNumberText1"
+            android:layout_alignTop="@id/waitDeskNumberText1"
+			android:textColor="@color/red_text"
+            />
+        
+        <TextView
+            android:id="@+id/nextNumberText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/big_black_text_style"
+            android:text="@string/next_number"
+            android:layout_toRightOf="@id/waitDeskNumberText1"
+            android:layout_alignTop="@id/waitDeskNumberText1"
+            android:layout_marginLeft="30dp"
+            />
+        
+        <TextView
+            android:id="@+id/nextNumberText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/big_black_text_style"
+            android:text="@string/next_number"
+            android:layout_toRightOf="@id/nextNumberText1"
+            android:layout_alignTop="@id/nextNumberText1"
+			android:textColor="@color/green"
+            />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

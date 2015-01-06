@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="104dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    >
+
+        <TextView
+            android:id="@+id/deskNameText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/big_black_text_style"
+            android:text="@string/app_name"
+            android:layout_centerVertical="true"
+            />
+        
+        <Button
+            android:id="@+id/useNumberButton"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/call_selector"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            />
+        
+</RelativeLayout>
